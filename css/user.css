@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg_vinyl.jpg);
+    object-fit: cover;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(
+        45deg,
+        rgba(250, 115, 52, 0.7) 0%,
+        rgba(255, 158, 31, 0.7) 100%
+    ),
+    url(images/cat-guitar.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+}
+
+.icon-img {
+    height: 150px;
+}
+
+.shop-deets {
+    margin-top: 10px;
+    color: #000000;
+    width: 180px;
+}
+
+.contact-deets {
+    margin-top: 14px;
+    margin-right: 40px;
+}
+
+dt, #about-heading{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+dd, #about-shop {
+    font-style: italic;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

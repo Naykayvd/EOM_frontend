@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/04cbc1650a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/user.css">
+    <title>Registeration</title>
+</head>
+<body>
+    <div class="head">
+        <img class="icon-img" src="css/images/logo1.png" alt="shop logo">
+        <h3>Register your details</h3>
+    </div>
+    <form class="user-box" onsubmit="event.preventDefault(); user_reg()" class="registeration">
+        <div>
+            <input id="first" type="name" name="fname" placeholder="first name" required>
+        </div>
+        <div>
+            <input id="sur" type="name" name="sname" placeholder="last name" required>
+        </div>
+        <div>
+            <input id="uname" type="username" name="username" placeholder="username" required>
+        </div>
+        <div>
+            <input id="pword" type="password" name="password" placeholder="password" required>
+        </div>
+        <span id="saved"></span>
+        <button type="submit">Register</button>
+        <a href="index.html">Sign in if you are a user</a>
+    </form>
+    <script src="js/register.js"></script>
+</body>
+</html>

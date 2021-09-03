@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/04cbc1650a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/user.css">
+    <title>Put your records on</title>
+</head>
+<body>
+    <div class="head">
+        <img class="icon-img" src="css/images/logo1.png" alt="shop logo">
+        <div class="shop-deets">
+            <h2 id="about-heading">About us<i class="fas fa-compact-disc"></i></h2>
+            <p id="about-shop">We stock the most desired and rarest records for the most enthusiastic collectors.</p>
+        </div>
+        <div class="contact-deets">
+            <dt><i class="fas fa-home"></i>Address:</dt>
+            <dd>111 Milkway avenue, Scottsberg, Some Town</dd>
+            <dt><i class="fas fa-phone"></i>Phone No.</dt>
+            <dd>0123456789</dd>
+            <dt><i class="far fa-envelope"></i>Email:</dt>
+            <dd>recordshop@domain.com</dd>
+        </div>
+    </div>
+    <form class="user-box" onsubmit="event.preventDefault(); user_login()">
+        <h3>Login here</h3>
+        <input id="username" type="name" name="username" placeholder="user name" required>
+        <input id="userpass" type="password" name="password" placeholder="password" required>
+        <span id="wrong"></span>
+        <button type="submit">Login<i class="far fa-check-circle"></i></button>
+        <a href="register.html">Don't have an account? Register here.</a>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+</html>
