@@ -9,8 +9,8 @@ fetch("https://final-eomp.herokuapp.com/view-records/")
             let records_containers = document.querySelector(".records-container");
             records_containers.innerHTML += `<div class="item">
             <p>Record No. ${item[0]}</p>
-            <p>Artist: ${item[1]}</p>
-            <p>Album: ${item[2]}</p>
+            <h2>Artist: ${item[1]}</h2>
+            <h2>Album: ${item[2]}</h2>
             <p>Price: R${item[3]}</p>
             <p>Genre: ${item[4]}</p>
             <p>Year: ${item[5]}</p>

@@ -5,7 +5,7 @@ function user_login() {
     let password = document.querySelector("#userpass").value;
     console.log(username, password);
 
-    fetch("https://final-eomp.herokuapp.com/user-section/", {
+    fetch("https://final-eomp.herokuapp.com/user-section", {
         method: "PATCH",
         body: JSON.stringify({
             username,
@@ -24,7 +24,7 @@ function user_login() {
             return;
         } else {
             localStorage.setItem("user", JSON.stringify(res.data));
-            window.location = "./products.html";
+            window.location = "./records.html";
         }
     });
 }
