@@ -56,4 +56,25 @@ dd, #about-shop {
     justify-content: center;
     align-items: center;
     height: 100%;
+    border: #000000 1px solid;
+    border-radius: 15px;
+    padding: 50px;
+    background-image: url(images/cat-guitar.jpg);
+}
+
+#submit-btn {
+    padding: 5px;
+    width: 207px;
+    color: #ce6c11;
+    background-color: #0000ff;
+    border: #0000ff 2px solid;
+    border-radius: 10px;
+}
+
+#submit-btn:hover {
+    color: #000000;
+    background-color: #3b3bda;
+    border: #3b3bda 2px solid;
+    transition: 0.5s;
+    cursor: pointer;
 }

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    border: 3px solid #000000;
+    color: #b37a12;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px;
+    background:
+    url(images/cat-guitar.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+}
+
+body {
+    background-image: url(images/bg_vinyl.jpg);
+    font-family: sans-serif;
+}
+
+.img-icon {
+    height: 150px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(
+        45deg,
+        rgba(250, 115, 52, 0.7) 0%,
+        rgba(255, 158, 31, 0.7) 100%
+    );
+}
+
+.user-cart {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: -100%;
+    background-color: #a0522d;
+    transition: all 0.3s linear;
+}
+
+.user-cart.show {
+    top: 0;
+    background-color: #e47900;
+}
+
+input {
+    width: 40px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.description {
+    color: #000000;
+    background: linear-gradient(
+        45deg,
+        rgba(252, 94, 21, 0.3) 0%,
+        rgba(247, 140, 2, 0.3) 100%
+    );
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+span {
+    color: #f5deb3;
+    text-decoration: underline;
+}
+
+.cart-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#back-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #000000;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+#back-btn:hover {
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 0.4s;
+}
+
+#cart-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 18px;
+    margin-right: 60px;
+}
+
+#cart-btn:hover {
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 0.4s;
+}
+
+#cart-back {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #b60000;
+    margin-top: 40px;
+}
+
+#cart-back:hover {
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 0.4s;
+}
+
+#submit {
+    padding: 6px;
+    background-color: #4169e1;
+    border: #4169e1 2px solid;
+    border-radius: 8px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #102a7a;
+    border: #102a7a 2px solid;
+    transition: 0.5s;
+}
