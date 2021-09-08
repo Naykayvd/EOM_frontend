@@ -14,22 +14,16 @@
         <h1>Register your details</h1>
 
     </div>
-    <form class="user-box" onsubmit="event.preventDefault(); user_reg()" class="registeration">
-        <div>
-            <input id="first" type="name" name="first_name" placeholder="first name" required>
+    <form onsubmit="event.preventDefault(); user_reg()" class="registeration">
+        <div class="user-box">
+            <input class="info-input" id="first" type="name" name="first_name" placeholder="first name" required>
+            <input class="info-input" id="last" type="name" name="last_name" placeholder="last name" required>
+            <input class="info-input" id="uname" type="username" name="username" placeholder="username" required>
+            <input class="info-input" id="pword" type="password" name="password" placeholder="password" required>
+            <span id="saved"></span>
+            <button id="register-btn" type="submit">Register</button>
+            <a class="user-link" href="index.html">Sign in if you are a user</a>
         </div>
-        <div>
-            <input id="last" type="name" name="last_name" placeholder="last name" required>
-        </div>
-        <div>
-            <input id="uname" type="username" name="username" placeholder="username" required>
-        </div>
-        <div>
-            <input id="pword" type="password" name="password" placeholder="password" required>
-        </div>
-        <span id="saved"></span>
-        <button type="submit">Register</button>
-        <a href="index.html">Sign in if you are a user</a>
     </form>
     <script src="javascript/register.js"></script>
 </body>

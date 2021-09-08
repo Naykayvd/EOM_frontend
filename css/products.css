@@ -143,3 +143,47 @@ span {
     border: #102a7a 2px solid;
     transition: 0.5s;
 }
+
+.clear-check {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#check {
+    border: 1px solid #330981;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #330981;
+    color: #ffffff;
+    margin-right: 2px;
+}
+
+#check:hover {
+    color: #000000;
+    padding: 10px;
+    background-color: #7a4fc9;
+    border: 1px solid #7a4fc9;
+    transition: 0.4s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#clear {
+    border: 1px solid #330981;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #330981;
+    color: #ffffff;
+    margin-left: 2px;
+}
+
+#clear:hover {
+    color: #000000;
+    padding: 10px;
+    background-color: #7a4fc9;
+    border: 1px solid #7a4fc9;
+    transition: 0.4s;
+    text-decoration: underline;
+    cursor: pointer;
+}

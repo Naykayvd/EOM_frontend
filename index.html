@@ -24,13 +24,15 @@
             <dd>recordshop@domain.com</dd>
         </div>
     </div>
-    <form class="user-box" onsubmit="event.preventDefault(); user_login()">
-        <h3>Login here</h3>
-        <input id="username" type="name" name="username" placeholder="user name" required>
-        <input id="userpass" type="password" name="password" placeholder="password" required>
-        <span id="wrong"></span>
-        <button id="submit-btn" type="submit">Login<i class="far fa-check-circle"></i></button>
-        <a href="register.html">Don't have an account? Register here.</a>
+    <form onsubmit="event.preventDefault(); user_login()">
+        <div class="user-box">
+            <h3>Login here</h3>
+            <input class="info-input" id="username" type="name" name="username" placeholder="user name" required>
+            <input class="info-input" id="userpass" type="password" name="password" placeholder="password" required>
+            <span id="wrong"></span>
+            <button id="submit-btn" type="submit">Login<i class="far fa-check-circle"></i></button>
+            <a class="user-link" href="register.html">Don't have an account? Register here.</a>
+        </div>
     </form>
     <script src="javascript/login.js"></script>
 </body>

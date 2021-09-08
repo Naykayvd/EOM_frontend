@@ -60,21 +60,50 @@ dd, #about-shop {
     border-radius: 15px;
     padding: 50px;
     background-image: url(images/cat-guitar.jpg);
+    width: 40%;
+    margin-left: 400px;
+    margin-top: 100px;
 }
 
-#submit-btn {
+#submit-btn, #register-btn {
     padding: 5px;
-    width: 207px;
+    width: 235px;
     color: #ce6c11;
     background-color: #0000ff;
     border: #0000ff 2px solid;
     border-radius: 10px;
 }
 
-#submit-btn:hover {
+#submit-btn:hover, #register-btn:hover {
     color: #000000;
     background-color: #3b3bda;
     border: #3b3bda 2px solid;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.info-input {
+    background: linear-gradient( 
+        45deg,
+        rgba(175, 89, 9, 0.3) 0%,
+        rgba(255, 255, 255, 0.3) 100%);
+    border: 1px solid #d3560d;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.user-link {
+    color: #0000ff;
+}
+
+.user-link:hover {
+    cursor: pointer;
+}
+
+#saved, #wrong {
+    font-weight: bold;
+    color: #ffffff;
 }
