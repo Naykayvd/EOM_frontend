@@ -187,3 +187,7 @@ span {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.total-cost {
+    margin-left: 50px;
+}
