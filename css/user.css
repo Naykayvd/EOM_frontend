@@ -107,3 +107,26 @@ dd, #about-shop {
     font-weight: bold;
     color: #ffffff;
 }
+
+.reg-head{
+    margin-right: 500px;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+.reg-head:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+
+.span-details{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.span-details:hover {
+    color: #000000;
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
